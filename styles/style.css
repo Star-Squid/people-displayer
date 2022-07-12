@@ -164,7 +164,7 @@ body > ul {
 .cards {
   display: flex;
   flex-flow: row wrap;
-  gap: 60px;
+  gap: 2rem;
   justify-content: center;
   align-items: stretch;
 }
@@ -175,13 +175,14 @@ body > ul {
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
-  width: 22rem;
-  background-color: var(--almostwhite);
+  /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35); */
+  width: 12rem;
+  text-align: center;
+  /* background-color: var(--almostwhite); */
 }
 
 .card > div {
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 50%;
   aspect-ratio: 1/1;
   background-color: grey;
   background-repeat: repeat;
